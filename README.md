@@ -25,4 +25,10 @@ You can check your python version to be sure that everything went as expected
 Install all pip requirements:
 	pip install -r requirements.txt
 
-DATABASE SETUP:
+### Run Notebook
+
+cd into root directory for django baseball project
+	cd Baseball
+
+run command to start juypter notebooks in browser
+	./manage.py shell_plus --notebook
